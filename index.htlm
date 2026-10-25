@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For My Moon 🌙</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: linear-gradient(160deg, #050711, #17172e, #080b18);
+    color: #f8f0e8;
+    font-family: Georgia, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 15px;
+    overflow-x: hidden;
+}
+
+.stars {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    background-image:
+        radial-gradient(white 1px, transparent 1px),
+        radial-gradient(#c9c8ff 1px, transparent 1px);
+    background-size: 53px 53px, 87px 87px;
+    background-position: 0 0, 30px 40px;
+    opacity: 0.35;
+}
+
+.card {
+    position: relative;
+    width: 100%;
+    max-width: 520px;
+    padding: 35px 24px;
+    border: 1px solid rgba(255,255,255,0.18);
+    border-radius: 24px;
+    background: rgba(255,255,255,0.055);
+    box-shadow: 0 0 45px rgba(145,145,255,0.12);
+    text-align: center;
+}
+
+.moon {
+    font-size: 65px;
+    margin-bottom: 10px;
+    animation: glow 3s infinite alternate;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #e6dcff;
+}
+
+.subtitle {
+    color: #c5bfd8;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 28px;
+}
+
+button {
+    background: #e6dcff;
+    color: #17152a;
+    border: none;
+    padding: 14px 25px;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: inherit;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.04);
+    background: white;
+}
+
+#letter {
+    display: none;
+    text-align: left;
+    margin-top: 28px;
+    line-height: 1.95;
+    font-size: 15px;
+    color: #f0edf8;
+    white-space: pre-line;
+    overflow-wrap: anywhere;
+}
+
+.signature {
+    text-align: center;
+    color: #e6dcff;
+    margin-top: 28px;
+    font-style: italic;
+}
+
+@keyframes glow {
+    from { text-shadow: 0 0 10px #b8b6ff; }
+    to { text-shadow: 0 0 30px #e6dcff; }
+}
+</style>
+</head>
+
+<body>
+
+<div class="stars"></div>
+
+<main class="card">
+    <div class="moon">🌙</div>
+
+    <h1>For My Moon</h1>
+
+    <div class="subtitle">A LITTLE LETTER FOR YOU 🤎</div>
+
+    <p>To the boy who means more than he knows.</p>
+
+    <button onclick="openLetter()">
+        Open my heart ♡
+    </button>
+
+    <div id="letter">
+To My Moon 🌙❤️‍🩹
+အချစ်ကလေးရေ..
+
+တစ်ခါတလေ ဘေဘီလုပ်ပေးဖို့ ပျက်ကွက်ခဲ့တဲ့အရာလေးတွေကြောင့် 
+ကို့စိတ်ထဲမှာ မေးခွန်းတွေအများကြီး ရှိနေမယ်ဆိုတာ ဘေဘီနားလည်ပါတယ်။ 
+ဘေဘီတို့ရဲ့ relationship ကို official မချပြသေးတာကြောင့်လည်း ကိုစိတ်ထိခိုက်ခဲ့ရတယ်ဆိုတာ ဘေဘီသိတယ်။
+ကို့ ကို ဘေဘီ ချစ်တယ်ဆိုတာ စကားလုံးတွေနဲ့ပဲ ပြောနေပြီး 
+ကိုခံစားရတဲ့ နာကျင်မှုတွေကို သေချာနားမလည်ပေးခဲ့မိရင် ဘေဘီတောင်းပန်ပါတယ်နော် ❤️‍🩹
+ကို့ရဲ့အတွေးလွန်မှုတွေ၊ ကို့ရဲ့စိတ်ပူမှုတွေ၊ ကို ဘယ်သူ့ကိုမှ 
+မပြောပြဖြစ်တဲ့ ခံစားချက်တွေကိုတောင် ဘေဘီ နားလည်ပေးချင်တယ်။
+ကို က အမြဲတမ်း သန်မာနေစရာမလိုဘူးနော်။ ဘေဘီ့ ရှေ့မှာ စိတ်မကောင်းဖြစ်လို့ရတယ်၊ 
+မလုံခြုံသလို ခံစားရရင်လည်း ပြောပြလို့ရတယ်။ ကို့ ခံစားချက်တွေက ဘေဘီ့ အတွက် အရေးကြီးတယ်။ 
+ကို နာကျင်နေတာကို အတွေးလွန်တယ်ဆိုပြီး လျစ်လျူရှုမထားချင်ဘူး။
+ဘေဘီ ကို့ကို ချစ်တယ်လို့ပြောတာက ကို့ ကို ခဏတာပျော်စေဖို့ မဟုတ်ဘူး။ ဘေဘီ တို့နှစ်ယောက်ကြားမှာ ယုံကြည်မှုရှိစေချင်တယ်။ 
+ကို့ ကို ချစ်တယ်ဆိုတဲ့စကားကို ကို တစ်ယောက်တည်း သံသယဝင်ပြီး ယုံကြည်ဖို့ ကြိုးစားနေရတဲ့အခြေအနေမျိုး မဖြစ်စေချင်ဘူး။
+ကို့ စိတ်ထဲမှာ "ကိုယ်က သူ့အတွက် တကယ်အရေးပါရဲ့လား၊ သူက ကိုယ့်ကို တကယ်ရွေးချယ်ထားတာလား" 
+ဆိုတဲ့မေးခွန်းတွေ ရှိနေရင် ဘေဘီ က စကားနဲ့ပဲမဟုတ်ဘဲ လုပ်ရပ်တွေနဲ့ပါ ကို့ ကို စိတ်ချရအောင် ကြိုးစားပေးချင်တယ်။
+ဘေဘီ တို့နှစ်ယောက်ရဲ့အချစ်ကို လူတိုင်းသိဖို့ထပ်  ကို ကိုယ်တိုင် ဘေဘီ့ရဲ့ အချစ်ကို ယုံကြည်စိတ်ချနိုင်ဖို့ကလည်း အရေးကြီးတယ်။
+ဒါပေမဲ့ ကို့ အတွက် official ဖြစ်ဖို့ ဘယ်လောက်အရေးကြီးတယ်ဆိုတာကိုလည်း ဘေဘီလျစ်လျူမရှုချင်ဘူး။ 
+ဘေဘီ တို့ ဒီကိစ္စကို ရိုးရိုးသားသားပြောကြမယ်နော်။ 
+ကို့ ကို မသေချာမရေရာမှုတွေကြားမှာ အကြာကြီးထားမိတာမျိုး မဖြစ်စေချင်ဘူး။
+ကိုက ဘေဘီ့ရဲ့လမင်း..
+ညအမှောင်ထဲမှာ လမင်းလေးကို မျှော်ကြည့်သလို ဘေဘီလည်း ကို့ ကို တန်ဖိုးထားတယ်။ 
+ဒါပေမဲ့ ကို က ဘေဘီ့ အတွက် အလင်းပေးတဲ့သူတစ်ယောက်ဖြစ်သလို 
+ဘေဘီ ကလည်း ကိုစိတ်အေးချမ်းနိုင်တဲ့သူတစ်ယောက် ဖြစ်ပေးချင်တယ်။
+ကို တစ်ယောက်တည်း အချစ်ကို ထိန်းသိမ်းနေရသလို မခံစားရစေချင်ဘူး။
+ဘေဘီ တို့နှစ်ယောက် အတူတူကြိုးစားကြမယ်နော်။
+
+I don't want you to keep wondering if you're enough for me. I want my actions to make you feel loved, chosen, and safe. 🤎
+
+ကို့ ကို ဘေဘီက အတွေးလွန်စေတဲ့သူ မဖြစ်ချင်ဘူး။ ကို စိတ်ပင်ပန်းတဲ့အခါ ပြန်လာနားခိုချင်တဲ့သူ ဖြစ်ချင်တယ်။
+
+Forever your girl, Your Moon's girl. 🌙❤️‍🩹
+
+
+
+    <div class="signature">
+        Forever your girl ♡<br>
+        Your Moon's girl 🌙
+    </div>
+    </div>
+</main>
+
+<script>
+function openLetter() {
+    const letter = document.getElementById("letter");
+    letter.style.display = "block";
+
+    document.querySelector("button").style.display = "none";
+letter.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+    });
+}
+</script>
+
+</body>
+</html>
